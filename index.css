@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    background-image: linear-gradient(rgb(99, 233, 213), rgb(241, 238, 229));
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.mid_container {
+    width: 24vw;
+    height: 85vh;
+    display: grid;
+    background-color: #ffffff;
+    color: black;
+    margin: 2% 40%;
+    border-radius: 1rem;
+}
+
+.img_container {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10rem;
+    text-align: center;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container {
+        width: 30vw;
+        height: 0;
+    }
+}
+
+.h2id {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+    color: rgb(52, 53, 51);
+    text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.h3id {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: #cccaca;
+}
+
+.audio_controls {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 0.3rem;
+    margin-top: 1.0rem;
+}
+
+.audio_controls .fa-solid {
+    font-size: 2rem;
+    margin-button: 6.5rem;
+    padding-button: 10;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.audio_controls .fa-play {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 40rem;
+    background-color: #111;
+    color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.audio_controls .fa-solid:hover {
+    color: #cccaca;
+}
+
+.audio_controls .fa-play:hover {
+    color: black;
+    background-color: #cccaca;
+    border-radius: 5rem;
+}
+
+.animate {
+    animation: rotatePlayer 3s linear infinite;
+}
+
+@keyframes rotatePlayer {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.ani {
+    animation: scale 32 linear infinite;
+}
+
+@keyframes scale {
+    from {
+        transform: scaleX(1deg);
+    }
+    to {
+        transform: scalex(30deg);
+    }
+}
