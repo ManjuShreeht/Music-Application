@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
@@ -14,27 +14,27 @@
 </head>
 
 <body>
-    <div class="main_div">
-        <div class="music_container">
-            <h2 id="title">Music</h2>
-            <h3 id="artist">Love Your music</h3>
+    <div class="container">
+        <div class="mid_container">
+            <h2 class="h2id" id="title">Kacha_Badam</h2>
+            <h3 class="h3id" id="artist">Anuradha</h3>
             <div class="img_container">
 
-                <img src=" https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="music">
+                <img src="images/abccc.jpg" alt="music">
             </div>
-            <audio src="music/abccc.mp3" controls>
+            <audio src="music/abccc.mp3">
             </audio>
             <div class="audio_controls">
-                <i class="fa-solid fa-backward" title="previous"></i>
-                <i class="fa-solid fa-play main_button" title="play"></i>
-                <i class="fa-solid fa-forward" title="next"></i>
+                <i class="fa-solid fa-backward" id="prev" title="previous"></i>
+                <i class="fa-solid fa-play main_button" id="play" title="play"></i>
+                <i class="fa-solid fa-forward" id="next" title="next"></i>
 
             </div>
 
 
         </div>
     </div>
-
+    <script src="index.js"></script>
 
 
 </body>

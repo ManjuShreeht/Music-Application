@@ -14,18 +14,18 @@ const prev = document.getElementById("prev");
 //arry t add songs
 const songs = [{
         name: "abccc",
-        title: "katcha badam",
-        artist: "unknow",
+        title: "Kacha_Badam",
+        artist: "Anurada",
     },
     {
         name: "male",
-        title: "male",
-        artist: "unknow",
+        title: "Male_Bille",
+        artist: "Murali",
     },
     {
         name: "Neeralli_Sanna_Ani",
-        title: "neerali",
-        artist: "unknow",
+        title: "Neerali_Sani_Ani",
+        artist: "Karan",
     },
 
 ];

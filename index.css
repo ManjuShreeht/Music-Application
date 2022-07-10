@@ -29,8 +29,8 @@
 }
 
 img {
-    width: 15rem;
-    height: 15rem;
+    width: 18rem;
+    height: 18rem;
     border-radius: 10rem;
     text-align: center;
     object-fit: cover;
@@ -111,18 +111,5 @@ img {
     }
     to {
         transform: rotate(360deg);
-    }
-}
-
-.ani {
-    animation: scale 32 linear infinite;
-}
-
-@keyframes scale {
-    from {
-        transform: scaleX(1deg);
-    }
-    to {
-        transform: scalex(30deg);
     }
 }
